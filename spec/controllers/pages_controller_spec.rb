@@ -6,6 +6,7 @@ describe PagesController do
   before(:each) do
     @base_title = "Ruby on Rails Sample Site | "
   end  
+  
   describe "GET 'home'" do
     it "should be successful" do
       get 'home'
